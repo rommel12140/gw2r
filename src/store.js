@@ -18,6 +18,7 @@ const persistConfig = {
   key: 'root',
   storage,
 }
+// this is a sample
 
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 
